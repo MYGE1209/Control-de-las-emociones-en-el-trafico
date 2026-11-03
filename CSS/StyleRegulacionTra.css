@@ -1,0 +1,135 @@
+.ContenedorTituloRT{
+    margin: 10vh 5vw;
+    width: 45vw;
+    background-color: #ff070700;
+}
+.EncabezadoTablaRT{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+}
+.subtituloRT{
+    text-align: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-top: 0vh;
+}
+.TextoRT{
+    text-align: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    margin-top: 0vh;
+}
+.ContenedordeEncabezadoIzquierdoRT{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1f3a8a00;
+    border-top: 15px solid #234cbe;
+    border-left: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+}
+.ContenedordeEncabezadoIzquierdoRT:hover{
+
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-left: 5px solid #fbbf24;
+    transition: 0.5s;
+}
+.ContenedordeEncabezadoDerechoRT{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1f3a8a00;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+}
+.ContenedordeEncabezadoDerechoRT:hover{
+
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transition: 0.5s;
+}
+.ContenedorDeEstrategia1Pregunta{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1f3a8a;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstrategia1Pregunta:hover{
+    background-color: #2b4fc4;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.ContenedorDeEstrategia2Pregunta{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #4a2c82;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstrategia2Pregunta:hover{
+    background-color: #6a3fc0;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.ContenedorDeEstrategia3Pregunta{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #0e5e6f;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstrategia3Pregunta:hover{
+    background-color: #138aa3;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.ContenedorDeEstrategia4Pregunta{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #7b2442;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstrategia4Pregunta:hover{
+    background-color: #a8325c;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.TablaRT{
+    margin: 5vh 10vw;
+}

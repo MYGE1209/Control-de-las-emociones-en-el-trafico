@@ -23,7 +23,7 @@
     font-size: 1.3rem;
     margin-top: 0vh;
 }
-.ContenedordeEncabezadoIzquioerdo{
+.ContenedordeEncabezadoIzquierdo{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
@@ -33,7 +33,7 @@
     padding: 15px;
     border-radius: 30px;
 }
-.ContenedordeEncabezadoIzquioerdo:hover{
+.ContenedordeEncabezadoIzquierdo:hover{
 
     background-color: #24475a;
     border-top: 15px solid #fbbf24;
