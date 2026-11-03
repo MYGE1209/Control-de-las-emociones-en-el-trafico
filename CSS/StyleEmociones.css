@@ -1,0 +1,152 @@
+.ContenedorTitulo{
+    margin: 10vh 5vw;
+    width: 45vw;
+    background-color: #ff070700;
+}
+.EncabezadoTabla{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+}
+.subtitulo {
+    text-align: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-top: 0vh;
+}
+.Texto {
+    text-align: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    margin-top: 0vh;
+}
+.ContenedordeEncabezadoIzquioerdo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1f3a8a00;
+    border-top: 15px solid #234cbe;
+    border-left: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+}
+.ContenedordeEncabezadoIzquioerdo:hover{
+
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-left: 5px solid #fbbf24;
+    transition: 0.5s;
+}
+.ContenedordeEncabezadoDerecho{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1f3a8a00;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+}
+.ContenedordeEncabezadoDerecho:hover{
+
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transition: 0.5s;
+}
+.ContenedorDeEstresPregunta{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1f3a8a;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstresPregunta:hover{
+    background-color: #2b4fc4;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.ContenedorDeEstresEmocion{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #4a2c82;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstresEmocion:hover{
+    background-color: #6a3fc0;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.ContenedorDeEstresEjemplo1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #0e5e6f;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstresEjemplo1:hover{
+    background-color: #138aa3;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.ContenedorDeEstresEjemplo2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #7b2442;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstresEjemplo2:hover{
+    background-color: #a8325c;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.ContenedorDeEstresEjemplo3{ 
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1e5b45;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.ContenedorDeEstresEjemplo3:hover{
+    background-color: #2a8564;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.TablaEmociones{
+    margin: 5vh 10vw;
+}
