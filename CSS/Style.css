@@ -1,7 +1,27 @@
 body{
-    background:linear-gradient( 90deg, #1a648b, #bf511e);
+    background:linear-gradient(  #1a648b, #bf511e);
     background-repeat:no-repeat;
     height:100%;
     margin:0;
     background-attachment:fixed;
+}
+.Titulos{
+    text-align:center;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Menu{
+    background-color: #f8f8f800;
+}
+.Botones{
+    background-color: #f8f8f800;
+    text-align:center;
+    color:white;
+    height: auto;
+    width: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
