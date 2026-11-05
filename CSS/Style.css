@@ -12,32 +12,5 @@ body{
     font-size: 4rem;
     margin-bottom: 0vh;
 }
-.Menu{
-    background-color: #f8f8f800;
-}
-.ContenedorBotones{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin: 2vh 15vw; 
-    background-color: #fd060600;
-}
-.Botones{
-    background-color: #0842611c;
-    text-align:center;
-    color:white;
-    height: auto;
-    width: auto;
-    margin: 0vh 3vw;
-    text-decoration: none;
-    font-size: 2rem;
-    border-radius: 10px;
-    padding: 10px;
-    transition: all 0.5s;
-}
-.Botones:hover{
-    background-color: #1C2229;
-    color:#4687a1;
-    transform: scale(1.05);
-    transition: 0.5s;
-}
+
+

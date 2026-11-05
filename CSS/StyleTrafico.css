@@ -1,0 +1,300 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a; /* Fondo oscuro elegante */
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.Menu-Header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.Menu {
+    background-color: #0b1120;
+    padding: 1rem 1.5rem;
+    border-bottom: 4px solid #234cbe;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.ContenedorBotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Botones {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: #1f3a8a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    border-top: 4px solid #234cbe;
+    border-right: 2px solid #234cbe;
+    transition: all 0.3s ease;
+}
+
+.Botones:hover {
+    background-color: #24475a;
+    border-top: 4px solid #fbbf24;
+    border-right: 2px solid #fbbf24;
+    transform: translateY(-2px);
+}
+
+/* Clase para resaltar la página actual en el menú */
+.Botones.activo {
+    background-color: #2b4fc4;
+    border-top: 4px solid #fbbf24;
+    border-right: 2px solid #fbbf24;
+}
+
+
+.ContenedorTitulo {
+    margin: 8vh 5vw;
+    width: 45vw;
+    background-color: transparent;
+}
+
+.EncabezadoTabla {
+    text-align: center;
+    color: white;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.Texto {
+    text-align: left;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+section {
+    max-width: 1000px;
+    margin: 3.5rem auto;
+    padding: 0 1.5rem;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+section > span {
+    display: block;
+    font-size: 1.15rem;
+    color: #cbd5e1;
+    margin-bottom: 2rem;
+    background-color: #1e293b;
+    padding: 18px;
+    border-left: 6px solid #234cbe;
+    border-radius: 15px;
+    line-height: 1.5;
+}
+
+section > div:not(.Menu):not(.ContenedorBotones):not(.cards-grid) {
+    color: white;
+    font-size: 1.25rem;
+    background-color: #1f3a8a;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 22px;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    transition: all 0.4s ease;
+}
+
+section > div:not(.Menu):not(.ContenedorBotones):not(.cards-grid):hover {
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.015);
+}
+
+section > div > p {
+    flex: 1;
+    line-height: 1.4;
+}
+
+section img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+
+.seccion-trafico {
+    margin-top: 4rem;
+}
+
+.intro {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #cbd5e1;
+}
+
+.cards-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card-vial {
+    flex: 1 1 450px;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #1f3a8a;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 28px;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+.card-vial:hover {
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.02);
+}
+
+.card-vial h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+}
+
+.card-vial ul {
+    padding-left: 1.2rem;
+}
+
+.card-vial li {
+    margin-bottom: 0.9rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+
+.ContenedordeEncabezadoIzquierdo {
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-top: 15px solid #234cbe;
+    border-left: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.ContenedordeEncabezadoIzquierdo:hover {
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-left: 5px solid #fbbf24;
+}
+
+.ContenedordeEncabezadoDerecho {
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.ContenedordeEncabezadoDerecho:hover {
+    background-color: #24475a;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+}
+
+.ContenedorDeEstresPregunta {
+    color: white;
+    font-size: 1.5rem;
+    background-color: #1f3a8a;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+
+.ContenedorDeEstresPregunta:hover {
+    background-color: #2b4fc4;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+}
+
+.ContenedorDeEstresEmocion {
+    color: white;
+    font-size: 1.5rem;
+    background-color: #4a2c82;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+
+.ContenedorDeEstresEmocion:hover {
+    background-color: #6a3fc0;
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.03);
+}
+
+.TablaEmociones {
+    margin: 5vh 10vw;
+}
+
+
+@media (max-width: 768px) {
+    .ContenedorBotones {
+        gap: 0.6rem;
+    }
+    
+    .Botones {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.9rem;
+    }
+
+    section > div:not(.Menu):not(.ContenedorBotones):not(.cards-grid) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-vial {
+        flex: 1 1 100%;
+    }
+}
