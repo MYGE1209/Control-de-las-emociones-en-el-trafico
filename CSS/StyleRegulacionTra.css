@@ -47,136 +47,132 @@
     border-right: 2px solid #fbbf24;
 }
 
-.ContenedorTituloRT{
-    margin: 10vh 5vw;
-    width: 45vw;
-    background-color: #ff070700;
+.ContenedorTituloRT {
+    margin: 10vh auto; /* Centrado horizontalmente */
+    width: 80vw;
+    max-width: 1200px;
+    background-color: transparent;
+    text-align: center;
 }
-.EncabezadoTablaRT{
+
+.EncabezadoTablaRT {
     text-align: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 5rem;
 }
-.subtituloRT{
-    text-align: left;
+
+.subtituloRT {
+    text-align: center; /* Centrado para mejor estética */
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
-    margin-top: 0vh;
+    margin-top: 0;
 }
-.TextoRT{
-    text-align: left;
+
+.TextoRT {
+    text-align: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.3rem;
-    margin-top: 0vh;
+    margin-top: 0;
 }
-.ContenedordeEncabezadoIzquierdoRT{
+
+.ContenedordeEncabezadoIzquierdoRT {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
-    background-color: #1f3a8a00;
+    background-color: transparent;
     border-top: 15px solid #234cbe;
     border-left: 5px solid #234cbe;
     padding: 15px;
     border-radius: 30px;
+    transition: all 0.5s ease;
 }
-.ContenedordeEncabezadoIzquierdoRT:hover{
+
+.ContenedordeEncabezadoIzquierdoRT:hover {
     background-color: #24475a;
     border-top: 15px solid #fbbf24;
     border-left: 5px solid #fbbf24;
-    transition: 0.5s;
 }
-.ContenedordeEncabezadoDerechoRT{
+
+.ContenedordeEncabezadoDerechoRT {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
-    background-color: #1f3a8a00;
+    background-color: transparent;
     border-top: 15px solid #234cbe;
-    border-right: 5px solid #234cbe;
+    border-right: 5px solid #fbbf24;
     padding: 15px;
     border-radius: 30px;
+    transition: all 0.5s ease;
 }
-.ContenedordeEncabezadoDerechoRT:hover{
+
+.ContenedordeEncabezadoDerechoRT:hover {
     background-color: #24475a;
     border-top: 15px solid #fbbf24;
     border-right: 5px solid #fbbf24;
-    transition: 0.5s;
-}
-.ContenedorDeEstrategia1Pregunta{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
-    background-color: #1f3a8a;
-    border-top: 15px solid #234cbe;
-    border-right: 5px solid #234cbe;
-    padding: 15px;
-    border-radius: 30px;
-    transition: all 0.5s;
-}
-.ContenedorDeEstrategia1Pregunta:hover{
-    background-color: #2b4fc4;
-    border-top: 15px solid #fbbf24;
-    border-right: 5px solid #fbbf24;
-    transform: scale(1.03);
-    transition: 0.5s;
-}
-.ContenedorDeEstrategia2Pregunta{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
-    background-color: #4a2c82;
-    border-top: 15px solid #234cbe;
-    border-right: 5px solid #234cbe;
-    padding: 15px;
-    border-radius: 30px;
-    transition: all 0.5s;
-}
-.ContenedorDeEstrategia2Pregunta:hover{
-    background-color: #6a3fc0;
-    border-top: 15px solid #fbbf24;
-    border-right: 5px solid #fbbf24;
-    transform: scale(1.03);
-    transition: 0.5s;
-}
-.ContenedorDeEstrategia3Pregunta{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
-    background-color: #0e5e6f;
-    border-top: 15px solid #234cbe;
-    border-right: 5px solid #234cbe;
-    padding: 15px;
-    border-radius: 30px;
-    transition: all 0.5s;
-}
-.ContenedorDeEstrategia3Pregunta:hover{
-    background-color: #138aa3;
-    border-top: 15px solid #fbbf24;
-    border-right: 5px solid #fbbf24;
-    transform: scale(1.03);
-    transition: 0.5s;
-}
-.ContenedorDeEstrategia4Pregunta{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
-    background-color: #7b2442;
-    border-top: 15px solid #234cbe;
-    border-right: 5px solid #234cbe;
-    padding: 15px;
-    border-radius: 30px;
-    transition: all 0.5s;
-}
-.ContenedorDeEstrategia4Pregunta:hover{
-    background-color: #a8325c;
-    border-top: 15px solid #fbbf24;
-    border-right: 5px solid #fbbf24;
-    transform: scale(1.03);
-    transition: 0.5s;
 }
 
-.TablaRT{
-    margin: 5vh 10vw;
+/* Base común para tarjetas de estrategias centradas */
+[class*="ContenedorDeEstrategia"] {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    border-top: 15px solid #234cbe;
+    border-right: 5px solid #234cbe;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    margin: 3vh auto; /* Centra las tarjetas vertical y horizontalmente */
+    width: 85%;
+    max-width: 1000px;
+}
+
+[class*="ContenedorDeEstrategia"]:hover {
+    border-top: 15px solid #fbbf24;
+    border-right: 5px solid #fbbf24;
+    transform: scale(1.02);
+}
+
+.ContenedorDeEstrategia1Pregunta {
+    background-color: #1f3a8a;
+}
+.ContenedorDeEstrategia1Pregunta:hover {
+    background-color: #2b4fc4;
+}
+
+.ContenedorDeEstrategia2Pregunta {
+    background-color: #4a2c82;
+}
+.ContenedorDeEstrategia2Pregunta:hover {
+    background-color: #6a3fc0;
+}
+
+.ContenedorDeEstrategia3Pregunta {
+    background-color: #0e5e6f;
+}
+.ContenedorDeEstrategia3Pregunta:hover {
+    background-color: #138aa3;
+}
+
+.ContenedorDeEstrategia4Pregunta {
+    background-color: #7b2442;
+}
+.ContenedorDeEstrategia4Pregunta:hover {
+    background-color: #a8325c;
+}
+
+.TablaRT {
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos internos de la tabla */
+    width: 100%;
+}
+.fot{
+    background-color: #138aa3;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
 }

@@ -197,3 +197,10 @@
 .TablaEmociones{
     margin: 5vh 10vw;
 }
+
+.fot{
+    background-color: #138aa3;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}

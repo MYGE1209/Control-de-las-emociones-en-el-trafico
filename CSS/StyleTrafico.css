@@ -298,3 +298,10 @@ section img {
         flex: 1 1 100%;
     }
 }
+
+.fot{
+    background-color: #138aa3;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}

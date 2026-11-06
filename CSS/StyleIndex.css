@@ -117,3 +117,9 @@
     color: white;
     transition: 0.5s;
 }
+.fot{
+    background-color: #138aa3;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}

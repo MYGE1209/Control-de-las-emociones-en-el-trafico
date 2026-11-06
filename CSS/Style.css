@@ -12,5 +12,10 @@ body{
     font-size: 4rem;
     margin-bottom: 0vh;
 }
-
+.fot{
+    background-color: #138aa3;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
 
